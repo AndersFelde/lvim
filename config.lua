@@ -18,6 +18,12 @@ lvim.keys.normal_mode["<C-w>"] = "<cmd>BufferKill<CR>"
 lvim.keys.normal_mode["<Tab>"] = "<cmd>bnext<CR>"
 lvim.keys.normal_mode["<S-Tab>"] = "<cmd>bnext<CR>"
 lvim.keys.normal_mode["<C-n>"] = "<cmd>NvimTreeToggle<CR>"
+lvim.keys.normal_mode["<M-J>"] = "<cmd>horizontal resize -2<CR>"
+lvim.keys.normal_mode["<M-K>"] = "<cmd>horizontal resize +2<CR>"
+lvim.keys.normal_mode["<M-L>"] = "<cmd>vertical resize +2<CR>"
+lvim.keys.normal_mode["<M-H>"] = "<cmd>vertical resize -2<CR>"
 
 lvim.builtin.which_key.vmappings["c"] = lvim.builtin.which_key.vmappings["/"]
 lvim.builtin.which_key.mappings["c"] = lvim.builtin.which_key.mappings["/"]
+lvim.builtin.terminal.open_mapping = "<leader>t"
+lvim.builtin.terminal.direction = "horizontal"
