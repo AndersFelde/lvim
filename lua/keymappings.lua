@@ -2,13 +2,13 @@ lvim.keys.normal_mode["J"] = "5j"
 lvim.keys.normal_mode["K"] = "5k"
 lvim.keys.normal_mode["L"] = "w"
 lvim.keys.normal_mode["H"] = "b"
-lvim.lsp.buffer_mappings.normal_mode['K'] = "5k"
+lvim.lsp.buffer_mappings.normal_mode['K'] = { "5k", "description" }
 
 lvim.keys.visual_mode["J"] = "5j"
 lvim.keys.visual_mode["K"] = "5k"
 lvim.keys.visual_mode["L"] = "w"
 lvim.keys.visual_mode["H"] = "b"
-lvim.lsp.buffer_mappings.visual_mode['K'] = "5k"
+lvim.lsp.buffer_mappings.visual_mode['K'] = { "5k", "description" }
 
 lvim.keys.normal_mode["<C-w>"] = "<cmd>BufferKill<CR>"
 lvim.keys.normal_mode["<Tab>"] = "<cmd>bnext<CR>"
